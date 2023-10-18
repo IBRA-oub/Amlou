@@ -93,5 +93,108 @@
     padding: 10px 50px;
     border-radius: 5px;
 }
+.home-content a:hover{
+    background-color: white;
+    border: 2px solid #9B5615;
+    color:#9B5615 ;
+}
 /*-------------------welcome-to-store--------------*/
+.welcome-store{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.side-image{
+    width: 50%;
+    height:300px ;
+}
+.side-content{
+    padding-top: 10%;
+    padding-left: 20%;
+}
+.side-content h1{
+    color: #FDC17A;
+    font-size: 50px;
+    width: 90%;
+}
+.side-content p{
+    padding-top: 2%;
+    width: 70%;
+    color:#9B5615 ;
+}
+.side-content div{
+    margin-top: 10%;
+}
+.side-content a{
+    text-decoration: none;
+    color: white;
+    background-color: #9B5615;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+.side-content a:hover{
+    background-color: white;
+    border: 2px solid #9B5615;
+    color:#9B5615 ;
+}
+/*--------------------costumers-content-------------*/
+.costumers-say{
+    width: 100%;
+    height: 600px;
+}
+.costumers-say h1{
+    text-align: center;
+    padding-top: 10%;
+    color: #FDC17A;
+    font-size: 50px;
 
+}
+.costumers-content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+.costumers-content div{
+    width: 25%;
+    height: 250px;
+    box-shadow: 0px 0px 7px 0px black;
+    text-align: center;
+    color: #9B5615;
+}
+.costumers-content div:hover{
+    background-color: #FDC17A;
+}
+.costumers-content div p{
+    padding-top:25% ;
+}
+/*-----------------------footer---------------------*/
+.footer{
+    width: 100%;
+    height: 300px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/Rectangle\ 14.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.logo-foo{
+    width: 20%;
+    height: 200px;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    padding-top: 10%;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+}
+.footer p{
+    padding-top: 5%;
+}
