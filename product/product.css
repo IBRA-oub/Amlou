@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    
+}
+   /*---------nav-bar-----------*/
+   .top-area{
+   
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDC17A;
+    align-items: center;
+}
+.logo-nav{
+   margin-left: 5%;
+    width: 10%;
+    height: 80px;
+}
+.logo-nav img{
+    width: 50%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right:30px ;
+   
+}
+.navbar ul {
+   list-style: none;
+   display: flex;
+}
+.navbar .active{
+    color: #9B5615;
+}
+.navbar ul li a{
+    padding: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.navbar ul li a:hover{
+ color: #9B5615;
+}
+.contact a {
+   
+    border: #9B5615 solid 2px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.contact a:hover{
+    background-color: #9B5615;
+}
+/*----------------product-content-------------*/
+
+    /*------------------section-content-one-------------*/
+.section-content-one{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.amlou-product{
+    
+    width: 24.5%;
+    height: 468px;
+    box-shadow: 0px 0px 17px 1px #0000002e;
+    position: relative;
+   
+}
+
+
+.amlou-product>p{
+    position: absolute;
+    display:none;
+    top: 10%;
+    text-align: center;
+    color: white;
+   
+
+}
+
+
+.image-product{
+    width: 80%;
+    margin-left:10% ;
+    height: 250px;
+   
+}
+
+.image-product img{
+    width: 100%;
+    height: 100%;
+}
+.info-product div p{
+    width: 40%;
+    line-height: 4;
+    padding-left: 15%;
+    
+}
+.cart{
+   margin-left:83% ;
+   padding-top: 5%;
+   padding-left: 7%;
+   width: 10%;
+   height: 38px;
+    background-color: #FDC17A;
+    border-radius: 55px 0px 0px 0px;
+}
+
+.cart img{
+
+    width: 90%;
+    height:100%;
+}
+
+
+.new{
+    background-color: #FDC17A;
+    width: 70px;
+    padding: 5px 5px 5px 5px;
+    transform: rotate(-90deg);
+    position: relative;
+    top:5%;
+    border-radius: 20px 0px 0px 20px;
+    font-weight: bold;
+    
+}
+
+        /*-----------hover-section-content-one----------*/
+.amlou-product:hover>p{
+    
+    display: block;
+}
+.amlou-product:hover{
+    background-color: #FDC17A;
+    color: white;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+   
+}
+.amlou-product:hover .new{
+    color: #FDC17A;
+}
+.amlou-product:hover .cart{
+    background-color: white;
+}
+
+    /*----------------------section-content-two-----------------*/
+    .section-content-two{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10%;
+    }
+    
+    .amlou-product-two{
+        
+        width: 24.5%;
+        height: 470px;
+        box-shadow: 0px 0px 17px 1px #0000002e;
+        position: relative;
+       
+    }
+    
+    
+    .amlou-product-two>p{
+        position: absolute;
+        display:none;
+        top: 10%;
+        text-align: center;
+        color: white;
+        
+    
+    }
+    
+    
+    .image-product-two{
+        width: 80%;
+        margin-left:10% ;
+        margin-top: 10%;
+        height: 250px;
+        
+       
+    }
+    
+    .image-product-two img{
+        width: 100%;
+        height: 100%;
+    }
+    .info-product-two div p{
+        width: 40%;
+        line-height: 4;
+        padding-left: 15%;
+        
+    }
+    .cart-two{
+       margin-left:83% ;
+       padding-top: 5%;
+       padding-left: 7%;
+       width: 10%;
+       height: 38px;
+        background-color: #FDC17A;
+        border-radius: 55px 0px 0px 0px;
+    }
+    
+    .cart-two img{
+    
+        width: 90%;
+        height:100%;
+    }
+   
+    
+            /*-----------hover-section-content-two----------*/
+    .amlou-product-two:hover>p{
+        
+        display: block;
+        
+       
+    }
+    .amlou-product-two:hover{
+        background-color: #FDC17A;
+        color: white;
+        border-radius: 10px;
+        transition-duration: 0.5s;
+       
+       
+    }
+    .amlou-product-two:hover .cart-two{
+        
+        background-color: white;
+    }
+
+    /*-----------------------footer---------------------*/
+.footer{
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/images/Rectangle\ 14.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.logo-foo{
+    width: 20%;
+    height: 200px;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    padding-top: 10%;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+}
+.footer p{
+    padding-top: 5%;
+}
