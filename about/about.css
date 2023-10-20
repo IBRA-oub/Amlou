@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    
+}
+   /*---------nav-bar-----------*/
+   .top-area{
+   
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDC17A;
+    align-items: center;
+}
+.logo-nav{
+   margin-left: 5%;
+    width: 10%;
+    height: 80px;
+}
+.logo-nav img{
+    width: 50%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right:30px ;
+   
+}
+.navbar ul {
+   list-style: none;
+   display: flex;
+}
+.navbar .active{
+    color: #9B5615;
+}
+.navbar ul li a{
+    padding: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.navbar ul li a:hover{
+ color: #9B5615;
+}
+.contact a {
+   
+    border: #9B5615 solid 2px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.contact a:hover{
+    background-color: #9B5615;
+}
+/*-------------------about-content------------------*/
+
+.about-content h1{
+    text-align: center;
+    padding-top: 5%;
+    color: #FDC17A;
+    font-size: 50px;
+}
+.about-content p{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 2%;
+    color: #743B06;
+}
+
+.cooperatives-content{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cooperatives{
+    width: 30%;
+    height: 350px;
+}
+.cooperatives p{
+    width: 60%;
+}
+.image-coop{
+    width: 100%;
+    height: 250px;
+}
+.cooperatives img{
+    width: 100%;
+    height: 100%;
+}
+/*-----------localisation--------------*/
+.localisation{
+    width: 98.7%;
+    height: 300px;
+    border: 10px solid black;
+}
+
+ /*-----------------------footer---------------------*/
+ .footer{
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/images/Rectangle\ 14.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.logo-foo{
+    width: 20%;
+    height: 200px;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    padding-top: 10%;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+}
+.footer p{
+    padding-top: 5%;
+}
