@@ -57,3 +57,76 @@
 .contact a:hover{
     background-color: #9B5615;
 }
+/*-----------------quetion---------------*/
+
+.faq h1{
+    text-align: center;
+    padding-top: 5%;
+    color: #FDC17A;
+    font-size: 50px;
+}
+.faq-centent{
+   border: #9B5615 2px solid;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;   
+}  
+ 
+.quest-icon{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDC17A;
+    
+}
+.question{
+    padding: 1% 0% 1% 05%;
+    color:#9B5615;
+
+}
+.question::first-letter{
+    color: white;
+}
+.icon{
+    padding-top: 5px;
+    padding-right: 5%;
+}
+.anser{
+
+   padding: 5%;
+   text-align: center;
+   display: none;
+   color: #9B5615;
+    
+}
+
+ /*-----------------------footer---------------------*/
+ .footer{
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/images/Rectangle\ 14.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.logo-foo{
+    width: 20%;
+    height: 200px;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    padding-top: 10%;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+}
+.footer p{
+    padding-top: 5%;
+}
