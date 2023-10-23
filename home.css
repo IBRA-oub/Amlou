@@ -7,12 +7,16 @@
     font-family: "Poppins";
     
 }
+body{
+    overflow-x: hidden;
+}
 /*----------------home-----------*/
 .home{
     width: 100%;
     height: 100vh; 
     background-image: url(images/Rectangle\ 1amlou.png);
     background-size: cover;
+    
     
 }
 
@@ -76,10 +80,11 @@
     padding-left: 5%;
 }
 .home-content h1{
-    font-size: 60px;
+    font-size: clamp(30px, 5vw , 60px);
     width: 60%;
 }
 .home-content p{
+    font-size: clamp(10px, 2vw , 16px);
     padding-top: 2%;
     width: 45%;
 }
@@ -92,6 +97,7 @@
     background-color: #9B5615;
     padding: 10px 50px;
     border-radius: 5px;
+   
 }
 .home-content a:hover{
     background-color: white;
@@ -115,10 +121,11 @@
 }
 .side-content h1{
     color: #FDC17A;
-    font-size: 50px;
+    font-size: clamp(10px, 3vw , 60px);
     width: 90%;
 }
 .side-content p{
+    font-size: clamp(5px, 2vw , 16px);
     padding-top: 2%;
     width: 70%;
     color:#9B5615 ;
@@ -147,12 +154,13 @@
     text-align: center;
     padding-top: 10%;
     color: #FDC17A;
-    font-size: 50px;
+    font-size: clamp(10px, 3vw , 60px);
 
 }
 .costumers-content{
     display: flex;
     justify-content: space-around;
+    
     padding-top: 5%;
 }
 .costumers-content div{
@@ -166,6 +174,7 @@
     background-color: #FDC17A;
 }
 .costumers-content div p{
+    font-size: clamp(5px, 2vw , 16px);
     padding-top:25% ;
 }
 /*-----------------------footer---------------------*/
@@ -194,7 +203,158 @@
 .footer li a{
     text-decoration: none;
     color: white;
+    font-size: clamp(5px, 2vw , 16px);
 }
 .footer p{
     padding-top: 5%;
+    font-size: clamp(5px, 2vw , 16px);
 }
+
+/*-------------------responsive------------------*/
+
+@media  (max-width: 426px) {
+    .navbar{
+        display: none;
+    }
+    .logo-nav{
+        width: 30%;
+    }
+    .home{
+        background-position: 50% 50%;
+        width: 100%;
+        height: 400px;
+    }
+    .home-content h1{
+        width: 80%;
+    }
+    .home-content p{
+        width: 90%;
+    }
+    .home-content a{
+        padding: 10px 20px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .welcome-store{
+        width: 100%;
+        height: 250px;
+    }
+    .side-image{
+        width: 80%;
+        
+    }
+    .side-image img{
+        width: 100%;
+        height: 150px;
+    }
+    .side-content p{
+        width: 90%;
+    }
+    .side-content a{
+        padding: 10px 20px;
+        margin-top: 5px;
+        font-size: 10px;
+
+    }
+    .costumers-say{
+        height: 450px;
+    }
+    .costumers-content{
+       display: block;
+    }
+    .costumers-content div{
+        width: 80%;
+        height: 100px;
+        margin: 10px 40px;
+       
+    }
+    .costumers-content div p{
+
+        padding-top: 15%;
+        
+    }
+    .logo-foo{
+        width: 20%;
+        height: 120px;
+    }
+    .logo-foo img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/*------------Tablete------------*/
+
+@media  (min-width: 427px  ) and (max-width: 1023px) {
+    .navbar{
+        display: none;
+    }
+    .logo-nav{
+        width: 20%;
+    }
+    .home{
+        
+        width: 100%;
+        height: 500px;
+    }
+    .home-content h1{
+        width: 80%;
+    }
+    .home-content p{
+        width: 90%;
+    }
+    
+    .welcome-store{
+        width: 100%;
+        height: 300px;
+    }
+    .side-image{
+        width: 100%;
+        height: 250px;   
+    }
+    .side-image img{
+        width: 100%;
+        
+    }
+    .side-content{
+        padding: 10%;
+    }
+    .side-content p{
+        width: 100%;
+    }
+    .costumers-say{
+        height: 850px;
+    }
+    .costumers-content{
+       display: block;
+    }
+    .costumers-content div{
+        width: 80%;
+        height: 200px;
+        margin: 15px 80px;
+       
+    }
+    .costumers-content div p{
+
+        padding-top: 10%;
+        
+    }
+    .logo-foo{
+        width: 20%;
+        height: 180px;
+    }
+    .logo-foo img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
