@@ -71,6 +71,9 @@ body{
 .contact a:hover{
     background-color: #9B5615;
 }
+.burger-menu{
+    display: none;
+}
 
 /*----------------------home-contact----------------*/
 
@@ -219,6 +222,10 @@ body{
     .logo-nav{
         width: 30%;
     }
+    .burger-menu{
+        display: block;
+        padding-right: 2%;
+    }
     .home{
         background-position: 50% 50%;
         width: 100%;
@@ -237,15 +244,17 @@ body{
     }
     .welcome-store{
         width: 100%;
-        height: 250px;
+        height: 150px;
     }
     .side-image{
         width: 80%;
+        height: 100px;
+        padding-top: 10%;
         
     }
     .side-image img{
         width: 100%;
-        height: 150px;
+        height: 100px;
     }
     .side-content p{
         width: 90%;
@@ -296,53 +305,11 @@ body{
     .logo-nav{
         width: 20%;
     }
-    .home{
-        
-        width: 100%;
-        height: 500px;
+    .burger-menu{
+        display: block;
+        padding-right: 2%;
     }
-    .home-content h1{
-        width: 80%;
-    }
-    .home-content p{
-        width: 90%;
-    }
-    
-    .welcome-store{
-        width: 100%;
-        height: 300px;
-    }
-    .side-image{
-        width: 100%;
-        height: 250px;   
-    }
-    .side-image img{
-        width: 100%;
-        
-    }
-    .side-content{
-        padding: 10%;
-    }
-    .side-content p{
-        width: 100%;
-    }
-    .costumers-say{
-        height: 850px;
-    }
-    .costumers-content{
-       display: block;
-    }
-    .costumers-content div{
-        width: 80%;
-        height: 200px;
-        margin: 15px 80px;
-       
-    }
-    .costumers-content div p{
-
-        padding-top: 10%;
-        
-    }
+   
     .logo-foo{
         width: 20%;
         height: 180px;
