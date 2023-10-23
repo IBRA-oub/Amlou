@@ -7,6 +7,7 @@
     
 }
 body{
+    
     overflow-x: hidden;
 }
    /*---------nav-bar-----------*/
@@ -201,16 +202,7 @@ h1{
         display: block;
         padding-right: 2%;
     }
-    .navbar{
-        display: none;
-    }
-    .logo-nav{
-        width: 30%;
-    }
-    .burger-menu{
-        display: block;
-        padding-right: 2%;
-    }
+   
     .etape-production{
         height: 800px;
     }
@@ -264,7 +256,7 @@ h1{
 
 /*------------Tablete------------*/
 
-@media  (max-width:  300px) {
+@media  (max-width:  400px) {
     
     .navbar{
         display: none;
