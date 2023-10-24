@@ -6,6 +6,10 @@
     font-family: "Poppins";
     
 }
+body{
+    
+    overflow-x: hidden;
+}
    /*---------nav-bar-----------*/
    .top-area{
    
@@ -57,6 +61,9 @@
     background-color: #9B5615;
     color: white;
 }
+.burger-menu{
+    display: none;
+}
 /*---------------------Contact-content-----------------*/
 
 .contact-content{
@@ -78,6 +85,7 @@
     font-size:60px;
     padding-left: 15%;
     color:#FDC17A;
+    font-size: clamp(20px,3vw,50px);
 }
 .info-entrer p{
     padding-top: 5%;
@@ -133,7 +141,7 @@
     border: 0;
     margin-left: 15%;
     font-weight: bold;
-    font-size: 20px;
+    font-size: clamp(10px, 2vw , 20px);
     border-radius: 5px;
     cursor: pointer;
  }
@@ -154,7 +162,7 @@
     padding-top: 5%;
     display: flex;
     justify-content: space-around;
-    background-image: url(/images/Rectangle\ 14.svg);
+    background-image: url(/images/Rectangle\ 14\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -173,7 +181,111 @@
 .footer li a{
     text-decoration: none;
     color: white;
+    font-size: clamp(5px, 2vw , 16px);
 }
 .footer p{
     padding-top: 5%;
+    font-size: clamp(10px, 2vw , 16px);
+}
+/*-------------------responsive------------------*/
+
+@media  (max-width: 1023px )  {
+    .navbar{
+        display: none;
+    }
+    .logo-nav{
+        width: 20%;
+    }
+    .burger-menu{
+        display: block;
+        padding-right: 2%;
+    }
+    .contact-content{
+        display: block;
+    }
+   .image{
+    display: none;
+   }
+   .info-entrer {
+    margin-left: 1%;
+    width: 99%;
+    background-image: url(/images/contact-remove-bg.png);
+    background-repeat: no-repeat;
+    background-position: 30% 10%;
+   }
+   .info-entrer h1{
+    text-align: center;
+    padding-left: 0;
+   }
+  
+   form{
+    padding-top: 5%;
+   }
+   .info-entrer input{
+    width: 98%;
+    margin-bottom: 0;
+    
+   }
+   .info-entrer textarea {
+    width: 98%;
+   }
+   form button{
+    margin-left: 0;
+    padding: 10px 40px;
+   }
+    .logo-foo{
+        width: 20%;
+        height: 120px;
+    }
+    .logo-foo img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        width: 100%;
+        margin: 0;
+        height: 250px;
+    }
+}
+
+   
+
+
+/*------------Tablete------------*/
+
+@media  (min-width: 700px ) and (max-width: 1022px ){
+    .info-entrer input{
+        width: 50%;
+        
+       }
+       .info-entrer textarea {
+        width: 50%;
+       }
+       .info-entrer {
+        margin-left: 1%;
+        width: 99%;
+        background-image: url(/images/contact-remove-bg.png);
+        background-repeat: no-repeat;
+        background-position: 160% 30%;
+       }
+}
+
+@media  (max-width:  400px) {
+    
+    .navbar{
+        display: none;
+    }
+    .logo-nav{
+        width: 50%;
+    }
+    .burger-menu{
+        display: block;
+        padding-right: 2%;
+    }
+    
+    .logo-foo{
+        width: 30%;
+        height: 120px;
+    }
+   
 }

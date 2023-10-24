@@ -188,7 +188,7 @@ body{
     padding-top: 5%;
     display: flex;
     justify-content: space-around;
-    background-image: url(images/Rectangle\ 14.svg);
+    background-image: url(images/Rectangle\ 14\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -310,6 +310,29 @@ body{
         display: block;
         padding-right: 2%;
     }
+    .welcome-store{
+        width: 100%;
+        height: 350px;
+    }
+    .side-image{
+        width: 80%;
+        height: 200px;
+        padding-top: 10%;
+        
+    }
+    .side-image img{
+        width: 100%;
+        height:100%;
+    }
+    .side-content p{
+        width: 90%;
+    }
+    .side-content a{
+        padding: 10px 20px;
+        margin-top: 5px;
+        font-size: 10px;
+
+    }
    
     .logo-foo{
         width: 20%;
@@ -324,5 +347,6 @@ body{
         height: 250px;
     }
 }
+
 
 
