@@ -9,6 +9,7 @@
 body{
     
     overflow-x: hidden;
+  
 }
    /*---------nav-bar-----------*/
    .top-area{
@@ -67,12 +68,14 @@ body{
 .section-content-one{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
     padding-top: 10%;
 }
 
 .amlou-product{
     
-    width: 24.5%;
+    width: 351px;
     height: 468px;
     box-shadow: 0px 0px 17px 1px #0000002e;
     position: relative;
@@ -160,13 +163,14 @@ body{
     .section-content-two{
         display: flex;
         justify-content: space-around;
-        
+        flex-wrap: wrap;
+        gap: 20px;
         padding-top: 10%;
     }
     
     .amlou-product-two{
         
-        width: 24.5%;
+        width: 351px;
         height: 470px;
         box-shadow: 0px 0px 17px 1px #0000002e;
         position: relative;

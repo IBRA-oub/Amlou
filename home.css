@@ -10,6 +10,7 @@
 body{
     
     overflow-x: hidden;
+    
 }
 /*----------------home-----------*/
 .home{
@@ -236,7 +237,7 @@ body{
     .navbar.showburger {
         left: 0;
         transition-duration: 1s;
-    }
+    } 
     .navbar  ul:first-child{
         margin-top: 40px;
     }

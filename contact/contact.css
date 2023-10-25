@@ -9,6 +9,7 @@
 body{
     
     overflow-x: hidden;
+   
 }
    /*---------nav-bar-----------*/
    .top-area{
@@ -201,6 +202,7 @@ body{
         width: 80vw;
         height: 100vh;
         background-color: #FDC17A;
+        border: 2px solid #9B5615;
     }
     .navbar.showburger {
         left: 0;
@@ -215,7 +217,7 @@ body{
     .navbar .contact a{
         margin-left: 30px;
        
-        background-color: #9B5615;
+       
     }
     /*---fin-responsive-burger----*/
     .logo-nav{

@@ -9,6 +9,7 @@
 body{
     
     overflow-x: hidden;
+    
 }
    /*---------nav-bar-----------*/
    .top-area{
@@ -157,11 +158,13 @@ body{
         width: 80vw;
         height: 100vh;
         background-color: #FDC17A;
+        border-right: 2px solid #9B5615;
     }
     .navbar.showburger {
         left: 0;
         transition-duration: 1s;
     }
+
     .navbar  ul:first-child{
         margin-top: 40px;
     }
@@ -237,6 +240,7 @@ body{
         width: 80vw;
         height: 100vh;
         background-color: #FDC17A;
+       
     }
     .navbar.showburger {
         left: 0;
