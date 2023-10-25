@@ -53,7 +53,7 @@ window.addEventListener("scroll", function() {
         //--------input-firstName--------
         if (!inputFirst.value) {
             inputFirst.classList.add('invalid');
-            errorMessage[0].innerText = 'message empty';
+            errorMessage[0].innerText = 'entrer votre Prenom';
             form_validation = false;
         }
         else if (inputFirst.value.length < 8) {
@@ -74,7 +74,7 @@ window.addEventListener("scroll", function() {
          //-------------input-lastName------------
          if (!inputLast.value) {
             inputLast.classList.add('invalid');
-            errorMessage[1].innerText = 'message empty';
+            errorMessage[1].innerText = 'entrer votre Nom';
             form_validation = false;
         }
         else if (inputLast.value.length < 8) {
@@ -96,9 +96,10 @@ window.addEventListener("scroll", function() {
         //-----------------input-email-----------------
         if (!email.value) {
             email.classList.add('invalid');
-            errorMessage[2].innerText = 'message empty';
+            errorMessage[2].innerText = 'ce champ est vide! entrer votre email';
             form_validation = false;
         }
+      
        
 
 
