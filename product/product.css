@@ -257,7 +257,7 @@ body{
     padding-top: 5%;
     display: flex;
     justify-content: space-around;
-    background-image: url(/images/Rectangle\ 14\ \(1\).png);
+    background-image: url(../images/Rectangle\ 14\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
