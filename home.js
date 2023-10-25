@@ -35,6 +35,81 @@ window.addEventListener("scroll", function() {
     });
   });
 
-  //------------------------input-validation----------------
+  //------------------------input-validation--------------------
 
+  const inputFirst=document.querySelector('input[name="firstName"]');
+  const inputLast=document.querySelector('input[ name="lastName"]');
+
+  const email= document.querySelector('input[ name="email"]');
   
+  const errorMessage=document.querySelectorAll('.errorMessage');
+
+  const form=document.querySelector('form');
+
+  let form_validation=false;
+
+  const validationInput = () =>{
+
+        //--------input-firstName--------
+        if (!inputFirst.value) {
+            inputFirst.classList.add('invalid');
+            errorMessage[0].innerText = 'message empty';
+            form_validation = false;
+        }
+        else if (inputFirst.value.length < 8) {
+            inputFirst.classList.add('invalid');
+            errorMessage[0].innerText = 'entrer 8 au min';
+            form_validation= false;
+        }
+        else if (inputFirst.value.length > 20 ) {
+            inputFirst.classList.add('invalid');
+            errorMessage[0].innerText = 'entrer 20 au max';
+            form_validation= false;
+        }
+        else {
+            inputFirst.classList.add('valid');
+            errorMessage[0].innerText = '';
+            form_validation = true;
+        }
+         //-------------input-lastName------------
+         if (!inputLast.value) {
+            inputLast.classList.add('invalid');
+            errorMessage[1].innerText = 'message empty';
+            form_validation = false;
+        }
+        else if (inputLast.value.length < 8) {
+            inputLast.classList.add('invalid');
+            errorMessage[1].innerText = 'entrer 8 au min';
+            form_validation= false;
+        }
+        else if (inputLast.value.length > 20 ) {
+            inputLast.classList.add('invalid');
+            errorMessage[1].innerText = 'entrer 20 au max';
+            form_validation= false;
+        }
+        else {
+            inputLast.classList.add('valid');
+            errorMessage[1].innerText = '';
+            form_validation = true;
+        }
+
+        //-----------------input-email-----------------
+        if (!email.value) {
+            email.classList.add('invalid');
+            errorMessage[2].innerText = 'message empty';
+            form_validation = false;
+        }
+       
+
+
+  }
+  form.addEventListener('submit', (e) => {
+
+    e.preventDefault();
+    validationInput();
+
+    if (form_validation == true) {
+        form.submit();
+    }
+
+})

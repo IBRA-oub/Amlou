@@ -48,27 +48,36 @@
 
    <section class="contact-content">
 
-    <!--information-message-->
-<div class="info-entrer">
-    <h1>Contact Us</h1>
-    <form>
-        <p>First name<span>*</span></p>
-        <input type="text" max="15" required>
+            <!--information-message-->
+        <div class="info-entrer">
+            <h1>Contact Us</h1>
+            <form>
+                <div class="firstName">
+                    <p>First name</p>
+                    <input type="text" name="firstName">
+                    <p class="errorMessage"></p>
+                </div>
 
-        <p>Last name<span>*</span></p>
-        <input type="text" max="15" required>
+                <div class="lastName">
+                    <p>Last name</p>
+                    <input type="text" name="lastName">
+                    <p class="errorMessage"></p>
+                </div>
 
-        <p>Email<span>*</span></p>
-        <input type="email" max="20" required>
+                <div class="email">
+                    <p>Email</p>
+                    <input type="email" name="email" >
+                    <p class="errorMessage"></p>
+                </div>
 
-        <p>Message</p>
-        <textarea></textarea>
-        
-        <button type="submit" class="envoi-info">Submit</button>
-    </form>
+                <p>Message</p>
+                <textarea></textarea>
+                
+                <button type="submit" class="envoi-info">Submit</button>
+            </form>
    
 
-</div>
+    </div>
 
 <div class="image"></div>
 </section>
