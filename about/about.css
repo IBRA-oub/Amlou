@@ -146,9 +146,34 @@ body{
 /*-------------------responsive------------------*/
 
 @media  (max-width: 1023px )  {
-    .navbar{
-        display: none;
+    .navbar  ul{
+        display: block;
     }
+    .navbar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 80vw;
+        height: 100vh;
+        background-color: #FDC17A;
+    }
+    .navbar.showburger {
+        left: 0;
+        transition-duration: 1s;
+    }
+    .navbar  ul:first-child{
+        margin-top: 40px;
+    }
+    .navbar  ul li{
+        margin-bottom: 30px;
+    }
+    .navbar .contact a{
+        margin-left: 30px;
+       
+        background-color: #9B5615;
+    }
+    /*---fin-responsive-burger----*/
     .logo-nav{
         width: 20%;
     }
@@ -201,9 +226,34 @@ body{
 
 @media  (max-width:  400px) {
     
-    .navbar{
-        display: none;
+    .navbar  ul{
+        display: block;
     }
+    .navbar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 80vw;
+        height: 100vh;
+        background-color: #FDC17A;
+    }
+    .navbar.showburger {
+        left: 0;
+        transition-duration: 1s;
+    }
+    .navbar  ul:first-child{
+        margin-top: 40px;
+    }
+    .navbar  ul li{
+        margin-bottom: 30px;
+    }
+    .navbar .contact a{
+        margin-left: 30px;
+       
+        background-color: #9B5615;
+    }
+    /*---fin-responsive-burger----*/
     .logo-nav{
         width: 50%;
     }

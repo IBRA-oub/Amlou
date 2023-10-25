@@ -17,7 +17,7 @@ body{
     height: 100vh; 
     background-image: url(images/Rectangle\ 1amlou.png);
     background-size: cover;
-    
+  
     
 }
 
@@ -42,8 +42,10 @@ body{
     display: flex;
     justify-content: space-between;
     margin-right:30px ;
+    
    
 }
+
 .navbar ul {
    list-style: none;
    display: flex;
@@ -73,7 +75,7 @@ body{
     background-color: #9B5615;
 }
 .burger-menu{
-    display: none;
+   display: none;
 }
 
 /*----------------------home-contact----------------*/
@@ -217,8 +219,34 @@ body{
 /*-------------------responsive------------------*/
 
 @media  (max-width: 426px) {
-    .navbar{
-        display: none;
+
+       /*---burger-menu-dynamique----*/
+    .navbar  ul{
+        display: block;
+    }
+    .navbar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 80vw;
+        height: 100vh;
+        background-color: #FDC17A;
+    }
+    .navbar.showburger {
+        left: 0;
+        transition-duration: 1s;
+    }
+    .navbar  ul:first-child{
+        margin-top: 40px;
+    }
+    .navbar  ul li{
+        margin-bottom: 30px;
+    }
+    .navbar .contact a{
+        margin-left: 30px;
+       
+        background-color: #9B5615;
     }
     .logo-nav{
         width: 30%;
@@ -300,9 +328,37 @@ body{
 /*------------Tablete------------*/
 
 @media  (min-width: 427px  ) and (max-width: 1023px) {
-    .navbar{
-        display: none;
+
+    
+        /*---burger-menu-dynamique----*/
+    .navbar  ul{
+        display: block;
     }
+    .navbar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 80vw;
+        height: 100vh;
+        background-color: #FDC17A;
+    }
+    .navbar.showburger {
+        left: 0;
+        transition-duration: 1s;
+    }
+    .navbar  ul:first-child{
+        margin-top: 40px;
+    }
+    .navbar  ul li{
+        margin-bottom: 30px;
+    }
+    .navbar .contact a{
+        margin-left: 30px;
+       
+        background-color: #9B5615;
+    }
+    /*---fin-responsive-burger----*/
     .logo-nav{
         width: 20%;
     }
